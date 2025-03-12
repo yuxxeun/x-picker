@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Theme } from "@radix-ui/themes";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/section/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({
           scaling="95%"
         >
           {children}
+          <Footer />
         </Theme>
       </body>
     </html>
