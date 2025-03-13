@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Flex, Progress } from "@radix-ui/themes";
+import { Flex, Progress } from "@radix-ui/themes";
 
 export default function LoadingScreen() {
   return (
